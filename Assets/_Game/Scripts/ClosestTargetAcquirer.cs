@@ -44,7 +44,7 @@ public class ClosestTargetAcquirer : BaseTargetAcquirer
         Vector3 targetVector = target.transform.position - turretPawn.axis.position;
         Ray ray = new Ray(turretPawn.axis.position, targetVector.normalized);
         RaycastHit hitInfo;
-
+         
         if (Physics.Raycast(ray, out hitInfo, targetVector.magnitude))
         {
             if (hitInfo.collider.transform.IsChildOf(target.transform))

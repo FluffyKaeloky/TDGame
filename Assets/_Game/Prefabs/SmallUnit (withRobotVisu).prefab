@@ -63,6 +63,7 @@ GameObject:
   - component: {fileID: 597481650}
   - component: {fileID: 597481651}
   - component: {fileID: 597481652}
+  - component: {fileID: 2785936948056025873}
   m_Layer: 8
   m_Name: SmallUnit (withRobotVisu)
   m_TagString: Untagged
@@ -274,6 +275,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09acdd54df79f574d933e85adc6df7db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2785936948056025873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297426446531742594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdafffe7e86514a448a7abd8267a9748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 2979624906028273485}
 --- !u!1001 &5825633614444065978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -356,3 +370,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a9798f494beb29c4193054695d8f3e50, type: 3}
   m_PrefabInstance: {fileID: 5825633614444065978}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6636519392392661483 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a9798f494beb29c4193054695d8f3e50, type: 3}
+  m_PrefabInstance: {fileID: 5825633614444065978}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2979624906028273485
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6636519392392661483}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8af55e5288c371b47b6951e1880129fe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
